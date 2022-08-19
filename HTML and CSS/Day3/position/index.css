@@ -1,0 +1,13 @@
+div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    left: 20px;
+}
+
+.box2 {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
