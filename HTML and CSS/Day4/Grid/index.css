@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-areas: "header header" "nav nav" "left-section right-section" "footer footer";
+    grid-template-rows: 1fr 1fr 50fr 2fr;
+    /* row-gap: 50px;
+    column-gap: 10px;
+    
+ */
+    gap: 50px / 10px;
+}
+
+header {
+    background-color: rgb(209, 160, 160);
+    grid-area: header;
+}
+
+nav {
+    background-color: aqua;
+    grid-area: nav;
+}
+
+.left-section {
+    background-color: #9d9595;
+    grid-area: left-section;
+}
+
+.right-section {
+    background-color: #c86969;
+    grid-area: right-section;
+}
+
+footer {
+    background-color: rgb(98, 183, 183);
+    grid-area: footer;
+}

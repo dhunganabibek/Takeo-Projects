@@ -1,0 +1,18 @@
+h1 {
+    color: red;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background: steelblue;
+    transition-property: width, height;
+    transition-duration: 5s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.box:hover {
+    width: 200px;
+    height: 500px;
+}
